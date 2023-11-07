@@ -5,10 +5,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="/jsp_plane_ticket_book/admin/asset/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="/jsp_plane_ticket_book/admin/asset/css/plugins/font-awesome.min.css"/>
-<link rel="stylesheet" type="text/css" href="/jsp_plane_ticket_book/admin/asset/css/plugins/animate.min.css"/>
-<link rel="stylesheet" type="text/css" href="/jsp_plane_ticket_book/admin/asset/css/style.css" >
+<link rel="stylesheet" type="text/css" href="/admin/asset/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/admin/asset/css/plugins/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="/admin/asset/css/plugins/animate.min.css"/>
+<link rel="stylesheet" type="text/css" href="/admin/asset/css/style.css" >
 </head>
 <body >
 <form method="post" action="../add_flight">

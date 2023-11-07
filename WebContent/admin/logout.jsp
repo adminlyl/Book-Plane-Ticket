@@ -8,7 +8,7 @@
 <body>
 <%
 	session.setAttribute("admin_id", null);
-	response.sendRedirect("/jsp_plane_ticket_book/admin/index.jsp");
+	response.sendRedirect("/admin/index.jsp");
 %>
 </body>
 </html>

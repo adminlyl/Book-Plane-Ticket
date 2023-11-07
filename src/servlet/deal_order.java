@@ -14,6 +14,7 @@ public class deal_order extends HttpServlet{
 
 	private static final long serialVersionUID = 1L;
 	
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.setCharacterEncoding("utf-8");
 		HttpSession session = req.getSession();

@@ -13,6 +13,7 @@ public class del_user_message extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	
+	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String sort=req.getParameter("class");
 		if(sort.equals("user")) {

@@ -13,6 +13,7 @@ public class userCenter extends HttpServlet{
 
 	private static final long serialVersionUID = 1L;
 	
+	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		HttpSession session = req.getSession();
 		Object user_id = session.getAttribute("user_id");

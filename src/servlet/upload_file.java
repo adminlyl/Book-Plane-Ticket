@@ -23,12 +23,14 @@ public class upload_file extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	 
 	
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		//GET��ʽ�ύ�����ݻ������ǷǷ����������ô���ֱ�ӷ���edit_infoҳ��Ϳ���
 			resp.sendRedirect("/jsp_plane_ticket_book/index/edit_info.jsp");
 	}
 	
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		HttpSession session=request.getSession();

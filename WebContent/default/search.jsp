@@ -15,13 +15,13 @@
 <meta charset="UTF-8">
 <title>机票预订系统</title>
 	<link rel="shortcut icon" href="https://picreso.oss-cn-beijing.aliyuncs.com/plane.png" type="image/x-icon">
-<link href="/jsp_plane_ticket_book/default/css/bootstrap.min.css" rel="stylesheet">
-<link href="/jsp_plane_ticket_book/default/css/common.css" rel="stylesheet">
-<link href="/jsp_plane_ticket_book/default/css/corptravel.css" rel="stylesheet">
-<link href="/jsp_plane_ticket_book/default/css/enterprise.css" rel="stylesheet">
-<link href="/jsp_plane_ticket_book/default/css/iconfont.css" rel="stylesheet">
-<script type="/jsp_plane_ticket_book/default/text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script src="/jsp_plane_ticket_book/default/js/bootstrap.min.js"></script>
+<link href="/default/css/bootstrap.min.css" rel="stylesheet">
+<link href="/default/css/common.css" rel="stylesheet">
+<link href="/default/css/corptravel.css" rel="stylesheet">
+<link href="/default/css/enterprise.css" rel="stylesheet">
+<link href="/default/css/iconfont.css" rel="stylesheet">
+<script type="/default/text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script src="/default/js/bootstrap.min.js"></script>
 </head>
 <body class="bg-body">
 	<!-- header -->
@@ -47,10 +47,10 @@
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu">
-								<li><a href="/jsp_plane_ticket_book/default/logout.jsp">退出</a></li>
+								<li><a href="/default/logout.jsp">退出</a></li>
 							</ul>
 						<%}else{ %>
-							<a href="/jsp_plane_ticket_book/user_center" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">
+							<a href="/user_center" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">
 								请登录！
 								
 							</a>
@@ -59,7 +59,7 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right nav-top-small">
 					<li class="dropdown">
-						<a href="/jsp_plane_ticket_book/default/message_board.jsp" class="dropdown-toggle"> 留言板 </a>
+						<a href="/default/message_board.jsp" class="dropdown-toggle"> 留言板 </a>
 					</li>
 
 				</ul>
@@ -77,7 +77,7 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class=" " href="/jsp_plane_ticket_book/default/index.jsp"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/plane.png"
+				<a class=" " href="/default/index.jsp"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/plane.png"
 					width="70" height="70" alt="系统LOGO" class="pull-left mar-right-30"
 					style="margin-left: -15px;"></a>
 
@@ -87,9 +87,9 @@
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="/jsp_plane_ticket_book/default/index.jsp"><i
+					<li class="active"><a href="/default/index.jsp"><i
 							class="icon iconfont icon-nav-block font24">&#xe620;</i> 首页</a></li>
-					<li><a href="/jsp_plane_ticket_book/user_center"><i
+					<li><a href="/user_center"><i
 							class="icon iconfont icon-nav-block font24">&#xe61c;</i> 用户中心</a></li>
 
 				</ul>
@@ -102,7 +102,7 @@
 	<div class="index-wall white " style="">
 		<div class="container"
 			style="position: relative; margin-left: 650px; width: auto;">
-			<form class="form-inline" action="/jsp_plane_ticket_book/search" method="post">
+			<form class="form-inline" action="/search" method="post">
 				<div class="form-group">
 					<select name="" class="form-control">
 						<option selected>单程</option>
@@ -176,7 +176,7 @@
 								class="rmb orange-f60 font16">￥<%=flight_info.getF_f_c_p() %></strong></li>
 							<li class="pull-right "><button type="button"
 									class="btn btn-danger btn-sm"
-									onClick="window.location.href ='/jsp_plane_ticket_book/default/order.jsp?flight_id=<%=flight_info.getF_n() %>&grade=f';">订票</button></li>
+									onClick="window.location.href ='/default/order.jsp?flight_id=<%=flight_info.getF_n() %>&grade=f';">订票</button></li>
 						</ul>
 						<ul class="list-inline">
 							<li class="w-percentage-20"><strong class=" red">商务舱(B)</strong></li>
@@ -188,7 +188,7 @@
 								class="rmb orange-f60 font16">￥<%=flight_info.getF_s_c_p() %></strong></li>
 							<li class="pull-right "><button type="button"
 									class="btn btn-danger btn-sm"
-									onClick="window.location.href ='/jsp_plane_ticket_book/default/order.jsp?flight_id=<%=flight_info.getF_n() %>&grade=b';">订票</button></li>
+									onClick="window.location.href ='/default/order.jsp?flight_id=<%=flight_info.getF_n() %>&grade=b';">订票</button></li>
 						</ul>
 						<ul class="list-inline">
 							<li class="w-percentage-20"><strong class="blue-0093dd">经济舱(E)</strong></li>
@@ -200,7 +200,7 @@
 								class="rmb orange-f60 font16">￥<%=flight_info.getF_t_c_p() %></strong></li>
 							<li class="pull-right "><button type="button"
 									class="btn btn-danger btn-sm"
-									onClick="window.location.href ='/jsp_plane_ticket_book/default/order.jsp?flight_id=<%=flight_info.getF_n() %>&grade=e';">订票</button></li>
+									onClick="window.location.href ='/default/order.jsp?flight_id=<%=flight_info.getF_n() %>&grade=e';">订票</button></li>
 						</ul>
 					</div>
 				</div>

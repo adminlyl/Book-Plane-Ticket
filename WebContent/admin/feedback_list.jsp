@@ -70,7 +70,7 @@
 											<td><%=message_date %></td>
 											<td><%=user_message %></td>
 											<td>
-												<a style="text-decoration:none;" href="/jsp_plane_ticket_book/del_message?id=<%=id%>&class=message">
+												<a style="text-decoration:none;" href="/del_message?id=<%=id%>&class=message">
 													删除
 												</a>
 											</td>

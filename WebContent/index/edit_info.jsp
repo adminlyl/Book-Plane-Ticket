@@ -5,8 +5,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link type="text/css" rel="stylesheet" href="/jsp_plane_ticket_book/index/css/core.css">
-<link type="text/css" rel="stylesheet" href="/jsp_plane_ticket_book/index/css/home.css">
+<link type="text/css" rel="stylesheet" href="/index/css/core.css">
+<link type="text/css" rel="stylesheet" href="/index/css/home.css">
 </head>
 <body>
 

@@ -8,7 +8,7 @@ public class db_conn {
 	public  db_conn() {
 		String URL="jdbc:mysql://localhost:3306/jsp_plane_ticket_book?serverTimezone=UTC";
 		String USER="root";
-		String PWD="lxz991203";
+		String PWD="123456";
 		
 		try{
 			Class.forName("com.mysql.cj.jdbc.Driver");

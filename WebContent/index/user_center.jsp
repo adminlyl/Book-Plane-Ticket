@@ -8,9 +8,9 @@
 <meta charset="UTF-8">
 <title>用户中心</title>
 	<link rel="shortcut icon" href="https://picreso.oss-cn-beijing.aliyuncs.com/plane.png" type="image/x-icon">
-<link type="text/css" rel="stylesheet" href="/jsp_plane_ticket_book/index/css/core.css">
-<link type="text/css" rel="stylesheet" href="/jsp_plane_ticket_book/index/css/icon.css">
-<link type="text/css" rel="stylesheet" href="/jsp_plane_ticket_book/index/css/home.css">
+<link type="text/css" rel="stylesheet" href="/index/css/core.css">
+<link type="text/css" rel="stylesheet" href="/index/css/icon.css">
+<link type="text/css" rel="stylesheet" href="/index/css/home.css">
 </head>
 <body>
 
@@ -37,7 +37,7 @@
 							</span> 
 							<span class="ydc-mal"><i
 								class="ydc-icon ydc-icon-mail fl"></i><em>0</em></span> <a
-								href="/jsp_plane_ticket_book/index/logout.jsp">退出</a>
+								href="/index/logout.jsp">退出</a>
 						</div>
 					</div>
 				</div>
@@ -56,9 +56,9 @@
 								<i class="ydc-icon ydc-icon-home fl"></i>首页
 						</span>
 							<ul>
-								<li><a target="frame" href="/jsp_plane_ticket_book/index/user_info.jsp"
+								<li><a target="frame" href="/index/user_info.jsp"
 									>个人资料</a></li>
-								<li><a target="frame" href="/jsp_plane_ticket_book/index/edit_info.jsp">修改信息</a></li>
+								<li><a target="frame" href="/index/edit_info.jsp">修改信息</a></li>
 							</ul></li>
 
 						<li class="ydc-menu-item">
@@ -66,7 +66,7 @@
 								<i class="ydc-icon ydc-icon-record fl"></i>订单
 							</span>
 							<ul>
-								<li><a target="frame" href="/jsp_plane_ticket_book/index/order_list.jsp">订单列表</a></li>
+								<li><a target="frame" href="/index/order_list.jsp">订单列表</a></li>
 							</ul>
 						</li>
 
@@ -74,7 +74,7 @@
 								<i class="ydc-icon ydc-icon-file fl"></i>管理
 						</span>
 							<ul>
-								<li><a href="/jsp_plane_ticket_book/default/index.jsp">返回首页</a></li>
+								<li><a href="/default/index.jsp">返回首页</a></li>
 							</ul></li>
 
 
@@ -85,7 +85,7 @@
 			
 			<!-- right start -->
 			<div style="width:76%;height:100%;">
-				<iframe name="frame" scrolling="auto" width="100%" height="100%" frameborder="0" src="/jsp_plane_ticket_book/index/user_info.jsp"></iframe>
+				<iframe name="frame" scrolling="auto" width="100%" height="100%" frameborder="0" src="/index/user_info.jsp"></iframe>
 			</div>
 			<!-- right end -->
 		</div>

@@ -85,10 +85,10 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="javascript:none"><i
 							class="icon iconfont icon-nav-block font24">&#xe620;</i> 首页</a></li>
-					<li><a href="/jsp_plane_ticket_book/user_center"><i
+					<li><a href="/user_center"><i
 							class="icon iconfont icon-nav-block font24">&#xe61c;</i> 用户中心</a></li>
 							
-							<li><a href="/jsp_plane_ticket_book/admin/index.jsp"><i
+							<li><a href="/admin/index.jsp"><i
 							class="icon iconfont icon-nav-block font24">&#xe61c;</i> 后台管理</a></li>
 
 				</ul>

@@ -9,8 +9,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link type="text/css" rel="stylesheet" href="/jsp_plane_ticket_book/index/css/core.css">
-<link type="text/css" rel="stylesheet" href="/jsp_plane_ticket_book/index/css/home.css">
+<link type="text/css" rel="stylesheet" href="/index/css/core.css">
+<link type="text/css" rel="stylesheet" href="/index/css/home.css">
 </head>
 <body>
 
@@ -92,7 +92,7 @@
 								<div class="ydc-reg-form-group clearfix"
 									style="margin-top: 40px;">
 									<div class="ydc-reg-form-button" style="margin-left: 255px;">
-										<a class="btn fl" href="/jsp_plane_ticket_book/index/edit_info.jsp">修改</a>
+										<a class="btn fl" href="/index/edit_info.jsp">修改</a>
 									</div>
 								</div>
 							</div>

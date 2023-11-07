@@ -19,6 +19,7 @@ public class search_fly extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	
+	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//get�ύΪ�Ƿ�������ֱ�ӷ��ر�session�����ҳ�漴��
 		HttpSession session = req.getSession();

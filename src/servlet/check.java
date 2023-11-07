@@ -19,14 +19,16 @@ public class check extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
+	@Override
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 			resp.setContentType("text/html;charset=utf-8");
 			PrintWriter out = resp.getWriter();
-			out.println("��ʹ��Ĭ�Ϸ�ʽ�ύ���ݣ���Ҫ���ԷǷ�����");
+			out.println("??????????????????????????????");
 		}
 	
-	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
+	@Override
+	public void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		resp.setContentType("text/html;charset=utf-8");
 		String id = null;
@@ -35,9 +37,10 @@ public class check extends HttpServlet {
 		id = req.getParameter("id");
 		password = req.getParameter("password");
 		
-		get_md5 MD5 = new get_md5();//����һ����ȡMD5�Ķ��󣬶�password���й�ϣ
+		get_md5 MD5 = new get_md5();//??????????MD5??????password??????
 		password = MD5.getMD5(password);
-		password = MD5.getMD5(password);//��password�������ι�ϣ����Ϊ���ݿ��д������Ҳ�Ǿ�������md5�Ľ��
+		password = MD5.getMD5(password);//??password??????????????????????????????????????md5????
+		System.out.println("密码"+password);
 		
 		
 		db_conn conn = new db_conn();
@@ -53,15 +56,15 @@ public class check extends HttpServlet {
 					session.setAttribute("admin_id", id);
 					resp.sendRedirect("frame");
 				}else {
-					System.out.println("�������"+res);
-					resp.sendRedirect("/jsp_plane_ticket_book/admin/index.jsp");
+					System.out.println("ResultSet"+res);
+					resp.sendRedirect("/admin/index.jsp");
 				}
 			}else {
-				System.out.println("�˺Ŵ���");
-				resp.sendRedirect("/jsp_plane_ticket_book/admin/index.jsp");				
+				System.out.println("查询管理员表为空");
+				resp.sendRedirect("/admin/index.jsp");
 			}
 		}catch(SQLException e) {
-			System.out.println("���ֲ���Ԥ���Դ��󣬴�����Ϣ���£�"+e);
+			System.out.println("异常信息"+e);
 		}
 	}
 	
